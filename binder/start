@@ -1,0 +1,2 @@
+#Start OpenRefine
+/home/jovyan/.openrefine/openrefine-2.8/refine -p 3333  -d /home/jovyan/openrefine
