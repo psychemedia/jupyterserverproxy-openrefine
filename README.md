@@ -1,7 +1,12 @@
 # jupyterserverproxy-openrefine
 Jupyter-server-proxy config for running OpenRefine
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/psychemedia/jupyterserverproxy-openrefine/master)
+Open to Notebook homepage: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/psychemedia/jupyterserverproxy-openrefine/master)
+
+Open to OpenRefine: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/psychemedia/jupyterserverproxy-openrefine/master?urlpath=openrefine)
+
+Open to Jupyterlab: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/psychemedia/jupyterserverproxy-openrefine/master?urlpath=lab)
+
 
 This `master` branch demonstrates:
 
@@ -15,3 +20,10 @@ The OpenRefine client can be found on the `openrefine` path or on a path explict
 Calling the path directly (eg starting MyBinder with the path `openrefine`, or adding `?urlpath=openrefine` to the Bunder URL) will launch the Binder container directly into the OpenRefine GUI application.
 
 Note that OpenRefine needs to be launnched or otherwise started in order for it to be availagle to the Python Openrefine client.
+
+There are several other branches in this repo that demonstrate other ways of working with OpenRefine in MyBinder/using `repo2docker`.
+
+- `start`: a simple setup that installs OpenRefine and autostarts it. This OpenRefine server can be accessed by the Python OpenRefine client (eg via the demo Jupyter notebook(s)) but the UI is not available;
+- `simpleproxy`: a container that installs and autoruns the OpenRefine server, and also makes it available as a proxied URL against known port (the port the OpenRefine server is explicitly started on);
+- `setup`: a script that uses the Python package `setup.py` method of installing the serverproxy extension, preconfigured for proxying OpenRefine.
+- `traitlet-nolab`: a simple traitlet definition that does not install an OpenRefine icon into the JupyterLab launcher.
