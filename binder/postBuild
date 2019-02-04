@@ -13,3 +13,7 @@ mkdir -p $HOME/.jupyter/
 #Although located in binder/,
 # this bash file runs in $HOME rather than $HOME/binder
 mv jupyter_notebook_config.py $HOME/.jupyter/
+mv open-refine-logo.svg $HOME/.jupyter/
+
+#Enable the OpenRefine icon in JuptyerLab desktop launcher
+jupyter labextension install jupyterlab-server-proxy
