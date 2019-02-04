@@ -6,9 +6,7 @@ c.ServerProxy.servers = {
         'port': 3333,
         'timeout': 120,
         'launcher_entry': {
-            'enabled': True,
-            'icon_path': '/home/jovyan/.jupyter/open-refine-logo.svg',
-            'title': 'OpenRefine',
+            'title': 'OpenRefine'
         },
     },
 }
