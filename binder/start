@@ -1,2 +1,8 @@
+#!/bin/bash
+
 #Start OpenRefine
-/home/jovyan/.openrefine/openrefine-2.8/refine -p 3333  -d /home/jovyan/openrefine
+OPENREFINE_DIR="$HOME/openrefine"
+mkdir -p $OPENREFINE_DIR
+nohup openrefine-2.8/refine -p 3333 -d OPENREFINE_DIR > /dev/null 2>&1 &
+
+exec "$@" 
