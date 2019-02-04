@@ -1,7 +1,9 @@
 # jupyterserverproxy-openrefine
 Jupyter-server-proxy config for running OpenRefine
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/psychemedia/jupyterserverproxy-openrefine/traitlet-nolab)
+Start on Jupyter notebook homepage: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/psychemedia/jupyterserverproxy-openrefine/traitlet-nolab)
+
+Start in OpenRefine client: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/psychemedia/jupyterserverproxy-openrefine/traitlet-nolab?urlpath=openrefine)
 
 This `traitlet-nolab` branch demonstrates:
 
