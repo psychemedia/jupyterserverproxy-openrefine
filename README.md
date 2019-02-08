@@ -1,13 +1,14 @@
 # jupyterserverproxy-openrefine
 Jupyter-server-proxy config for running OpenRefine
 
-Start on Jupyter notebook homepage: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/psychemedia/jupyterserverproxy-openrefine/traitlet-nolab)
+Start on Jupyter notebook homepage: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/psychemedia/jupyterserverproxy-openrefine/pgdemo)
 
-Start in OpenRefine client: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/psychemedia/jupyterserverproxy-openrefine/traitlet-nolab?urlpath=openrefine)
+Start in OpenRefine client: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/psychemedia/jupyterserverproxy-openrefine/pgdemo?urlpath=openrefine)
 
-This `traitlet-nolab` branch demonstrates:
+This `pgdemo` branch demonstrates:
 
 - using serverproxy (traitlet definition) to add an *OpenRefine* menu option to the notebook start menu. The configuration uses a fixed port assigment so that we can work with the client package.
+- postgres running in the Binder image
 
 OpenRefine can now be started and launched from the notebook homepage New menu.
 
