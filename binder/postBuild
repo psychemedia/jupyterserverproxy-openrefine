@@ -2,6 +2,7 @@
 set -e
 
 VERSION=3.1
+#Note that we also need to set the version in the jupyter_notebook_config.py file
 wget -q -O openrefine-$VERSION.tar.gz https://github.com/OpenRefine/OpenRefine/releases/download/$VERSION/openrefine-linux-$VERSION.tar.gz
 mkdir -p $HOME/.openrefine
 tar xzf openrefine-$VERSION.tar.gz -C $HOME/.openrefine
