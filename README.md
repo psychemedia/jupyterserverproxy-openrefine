@@ -15,4 +15,4 @@ The OpenRefine client can be found on the `openrefine` path or on a path explict
 
 Calling the path directly (eg starting MyBinder with the path `openrefine`, or adding `?urlpath=openrefine` to the Bunder URL) will launch the Binder container directly into the OpenRefine GUI application.
 
-Note that OpenRefine needs to be launnched or otherwise started in order for it to be availagle to the Python Openrefine client.
+Note that OpenRefine needs to be launched or otherwise started in order for it to be available to the Python Openrefine client.
