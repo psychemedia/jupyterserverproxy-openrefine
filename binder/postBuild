@@ -16,4 +16,5 @@ mv jupyter_notebook_config.py $HOME/.jupyter/
 mv open-refine-logo.svg $HOME/.jupyter/
 
 #Enable the OpenRefine icon in JuptyerLab desktop launcher
-jupyter labextension install jupyterlab-server-proxy
+#This just gives nothing but problems with version mismathces against Jupyterlab
+#jupyter labextension install jupyterlab-server-proxy
