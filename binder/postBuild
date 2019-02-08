@@ -13,3 +13,13 @@ mkdir -p $HOME/.jupyter/
 #Although located in binder/,
 # this bash file runs in $HOME rather than $HOME/binder
 mv jupyter_notebook_config.py $HOME/.jupyter/
+
+PGDATA=${PGDATA:-/home/jovyan/srv/pgsql}
+if [ ! -d "$PGDATA" ]; then
+  initdb -D "$PGDATA" --auth-host=md5 --encoding=UTF8
+fi
+
+pg_ctl -D "$PGDATA" -l "$PGDATA/pg.log" start
+
+chmod +x $HOME/init_db.sh
+$HOME/init_db.sh
