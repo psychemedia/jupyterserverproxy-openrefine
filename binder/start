@@ -1,7 +1,8 @@
 #!/bin/bash
 set -eux
 
-nohup  jupyter kernelgateway --KernelGatewayApp.api='kernel_gateway.notebook_http' --KernelGatewayApp.seed_uri='notebooks/Reconciler.ipynb' --port 8895 >/dev/null 2>&1 
+#So what's the approved route for running things in the background?
+#nohup  jupyter kernelgateway --KernelGatewayApp.api='kernel_gateway.notebook_http' --KernelGatewayApp.seed_uri='notebooks/Reconciler.ipynb' --port 8895 >/dev/null 2>&1
 
 
 exec "$@"
