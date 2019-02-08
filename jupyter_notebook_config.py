@@ -4,7 +4,7 @@
 #unless we rename it earlier in the setup process
 c.ServerProxy.servers = {
     'openrefine': {
-        'command': ['/home/jovyan/.openrefine/openrefine-3.1/refine','-ip','0.0.0.0', '-p', '{port}','-d','/home/jovyan/openrefine'],
+        'command': ['/home/jovyan/.openrefine/openrefine-3.1/refine', '-p', '{port}','-d','/home/jovyan/openrefine'],
         'port': 3333,
         'timeout': 120,
         'launcher_entry': {
