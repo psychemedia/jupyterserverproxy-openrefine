@@ -3,7 +3,7 @@ set -eux
 
 #So what's the approved route for running things in the background?
 #Maybe I was getting the path wrong?
-jupyter kernelgateway --KernelGatewayApp.api='kernel_gateway.notebook_http' --KernelGatewayApp.seed_uri='/home/jovyan/notebooks/Reconciler.ipynb' --port 8895 &
+jupyter kernelgateway --ip 0.0.0.0 --KernelGatewayApp.api='kernel_gateway.notebook_http' --KernelGatewayApp.seed_uri='/home/jovyan/notebooks/Reconciler.ipynb' --port 8895 &
 
 
 exec "$@"
