@@ -1,7 +1,9 @@
 # jupyterserverproxy-openrefine
 Jupyter-server-proxy config for running OpenRefine
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/psychemedia/jupyterserverproxy-openrefine/simpleproxy)
+Launch into notebook server: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/psychemedia/jupyterserverproxy-openrefine/simpleproxy)
+
+Launch into OpenRefine GUI: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/psychemedia/jupyterserverproxy-openrefine/simpleproxy?urlpath=proxy/3333/)
 
 This `simpleproxy` branch demonstrates:
 
