@@ -16,4 +16,5 @@ mv jupyter_notebook_config.py $HOME/.jupyter/
 mv open-refine-logo.svg $HOME/.jupyter/
 
 #Enable the OpenRefine icon in JuptyerLab desktop launcher
-jupyter labextension install jupyterlab-server-proxy
+# Put off the installation because it causes errors on MyBinder
+#jupyter labextension install jupyterlab-server-proxy
