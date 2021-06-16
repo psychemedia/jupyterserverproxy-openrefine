@@ -1,6 +1,8 @@
 # jupyterserverproxy-openrefine
 Jupyter-server-proxy config for running OpenRefine.
 
+__THIS REPO IS NOW ARCHIVED: FOR THE CURRENT OPENREFINE JUPYTER-SERVER-PROXY PACKAGE, SEE [`innovationOUtside/nb_serverproxy_openrefine`](https://github.com/innovationOUtside/nb_serverproxy_openrefine/)__
+
 
 Open to Notebook homepage: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/psychemedia/jupyterserverproxy-openrefine/master)
 
